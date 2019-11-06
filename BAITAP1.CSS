@@ -1,0 +1,28 @@
+.container {
+	height: 150px;
+}
+.container .hinhtron {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background: url(https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-9/75253023_946513945718418_2217353106524471296_n.jpg?_nc_cat=111&_nc_oc=AQmLKinLfBxVz3_SCofcktkiVV-sLVjD1XWoQX9yhFfPSaFcC4SCLHaq2G37BQyamNQ&_nc_ht=scontent.fdad2-1.fna&oh=9ac7cb527bb0321c6a926bbaca83b7a1&oe=5E542621);
+	background-size: 150px 150px;
+	float: left;
+}
+.container p {
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-right: 300px;
+	font-size: 20px;
+}
+.blockquote::before {
+	font-family: serif;
+	content: "\201c";
+	position: absolute;
+	left: 385px;
+	top: 30px;
+	font-size: 4rem;
+}
+.blockquote-footer {
+	margin-left: 200px;
+}
